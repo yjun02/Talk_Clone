@@ -5,7 +5,7 @@
 }
 
 .status__column:first-child span {
-  margin-right: 5px;
+  margin-right: 0.5vw;
 }
 
 .status__column {

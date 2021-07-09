@@ -2,68 +2,8 @@
 @import "reset.css";
 @import "status-bar.css";
 @import "variables.css";
+@import "login.css";
+
 body {
   font-family: "Open Sans", sans-serif;
-}
-
-.welcome-header {
-  display: flex;
-  flex-direction: column;
-  margin: 10vh 0px;
-  text-align: center;
-  align-items: center;
-}
-
-.welcome-header__title {
-  font-size: 25px;
-  margin-bottom: 3vh;
-  font-weight: 600;
-}
-
-.welcome-header__text {
-  font-weight: 600;
-  opacity: 55%;
-}
-
-#login-form {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 5vw;
-}
-
-#login-form input {
-  padding: 2vh 0px;
-  border: none;
-  font-size: 20px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
-  margin-bottom: 2vh;
-  transition: border-color 0.3s ease-in-out;
-}
-
-#login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.4);
-}
-
-#login-form input:focus {
-  border-color: var(--yellow);
-}
-
-input:focus {
-  outline: none;
-}
-
-#login-form input:nth-child(n + 3) {
-  border: none;
-}
-
-#login-form input[type="submit"] {
-  background-color: var(--yellow);
-  cursor: pointer;
-}
-
-#login-form a {
-  text-align: center;
-  text-decoration-line: none;
-  color: rgba(0, 0, 0, 0.8);
-  font-weight: 600;
 }
