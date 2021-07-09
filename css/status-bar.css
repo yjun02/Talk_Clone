@@ -1,0 +1,28 @@
+#status {
+  display: flex;
+  justify-content: center;
+  padding: 5px 3px;
+}
+
+.status__column:first-child span {
+  margin-right: 5px;
+}
+
+.status__column {
+  width: 33%;
+}
+
+.status__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.status__column:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.fas {
+  margin: 0px 5px;
+}
